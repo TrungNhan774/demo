@@ -10,6 +10,6 @@ package DAO;
  */
 public class updateDAO {
     public void updateuser() {
-    
+    String sql = "select * from user where id = ?";
     }
 }
